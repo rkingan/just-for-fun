@@ -4,3 +4,37 @@ The other day as I was waiting to pick up my son from school, I was listening to
 
 Another thing that happened this week is, I was sick. And while I was lying in bed in a feverish state, I thought it might be fun to make a little Python script to check song lyrics for common phrases. A more ambitious plan is to hook the script up to a song lyrics API, and I might do that at some point, but for now it'll just read the lyrics from text files.
 
+If you download the lyrics for those three songs and run the program, this is the output you should see (with your own filenames):
+
+```
+lc.py you-never-give-me-your-money.txt born-in-the-usa.txt lonely.txt
+Phrases of length 1
+go
+up
+you
+in
+all
+my
+nowhere
+i
+your
+the
+me
+and
+to
+
+
+Phrases of length 2
+to go
+nowhere to
+
+
+Phrases of length 3
+nowhere to go
+
+
+Phrases of length 4
+
+
+Phrases of length 5
+```
